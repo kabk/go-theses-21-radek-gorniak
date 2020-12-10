@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'DIATYPE';
+    src: url('FONTS/Sinistre-StCaroline.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-size: 20px;
+  --contentWidth: 40%;
+  max-width: var(--contentWidth);
+  font-family: DIATYPE, sans-serif;
+  overflow-x: hidden;
+  margin-left: 32%;
+}
+
+img{
+  height: 500px;
+  max-width: 600px;
+  object-fit: scale-down;
+  border-radius: 10px;
+  text-align: center;
+}
+
+p{
+  /* margin-left: 100px; */
+  color: linear-gradient(red, green);
+}
+
+td{
+  color: grey;
+}
+
+h1{
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  background-color: black;
+}
+
+h5{
+  color: black;
+  font-style: light;
+  font-size: 15px;
+  text-align: center;
+  margin:0;
+  padding:0;
+  background-color: white;
+}
+
+h2{
+  margin-top: 150px;
+  font-size: 35px;
+  text-align: center;
+}
+figcaption{
+  font-style: italic;
+}
+blockquote{
+  font-style: italic;
+  color:red;
+}
+.cover{
+  margin-top: 50px;
+  margin-left: 50%;
+  text-align: center;
+}
+
+.hashtag {
+  display: none;
+}
