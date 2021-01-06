@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'monument';
+    src: url('../fonts/ABCMonumentGrotesk-Regular.woff2') format('woff2'),
+         url('../fonts/ABCMonumentGrotesk-Regular.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'monument';
+    src: url('../fonts/ABCMonumentGrotesk-Bold.woff2') format('woff2'),
+         url('../fonts/ABCMonumentGrotesk-Bold.woff')format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sinistre';
+    src: url('../fonts/Sinistre.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-size: 1em;
+  --contentWidth: 90%;
+  max-width: var(--contentWidth);
+  font-family: monument, sans-serif;
+  overflow-x: hidden;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+
+}
+p{
+  font-size: 0.9em;
+}
+img{
+  height: 35vh;
+  width: 100%;
+  object-fit: scale-down;
+  border-radius: 25px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+p{
+  /* margin-left: 100px; */
+
+  line-height: 2em;
+}
+
+td{
+  color: grey;
+}
+
+h1{
+  color: red;
+  font-family: sinistre;
+  font-size: 3.4em;
+  text-align: center;
+  /* background-color: black; */
+  font-weight: bold;
+  /* line-height: 1em; */
+
+}
+h1 > em{
+  font-style: normal;
+  font-family: monument;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  color:black;
+}
+
+h5{
+  color: black;
+  font-style: light;
+  font-size: 15px;
+  text-align: center;
+  margin:0;
+  padding:0;
+  background-color: white;
+}
+
+h2{
+  margin-top: 15px;
+  font-size: 2em;
+  text-align: center;
+  font-family: monument;
+  line-height: 1.1em;
+}
+h6{
+  color:red;
+  font-family: sinistre;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+figcaption{
+  font-style: italic;
+}
+blockquote{
+  font-style: italic;
+  color:red;
+}
+.cover{
+  margin-top: 50px;
+  margin-left: 50%;
+  text-align: center;
+}
+
+.hashtag {
+  display: none;
+}
+
+
+/* index */
+
+.index_img{
+/* background-color: red; */
+
+}
+.index_img >img{
+height: 75vh;
+object-fit: cover;
+}
+.h2-index{
+  position: fixed;
+  bottom: 12px;
+  left: 25%;
+  right: 25%;
+}

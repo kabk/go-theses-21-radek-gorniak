@@ -1,24 +1,27 @@
 @font-face {
-    font-family: 'DIATYPE';
-    src: url('FONTS/Sinistre-StCaroline.woff2') format('woff2'),
+    font-family: 'optima';
+    src: url('../fonts/ABCMonumentGrotesk-Regular.woff2') format('woff2'),
+         url('../fonts/ABCMonumentGrotesk-Regular.woff')format('woff');
     font-weight: normal;
     font-style: normal;
 }
 body {
   font-size: 20px;
-  --contentWidth: 40%;
+  --contentWidth: 90%;
   max-width: var(--contentWidth);
-  font-family: DIATYPE, sans-serif;
+  font-family: optima, sans-serif;
   overflow-x: hidden;
-  margin-left: 32%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 img{
-  height: 500px;
-  max-width: 600px;
+  height: 35vh;
+  width: 100%;
   object-fit: scale-down;
-  border-radius: 10px;
+  border-radius: 25px;
   text-align: center;
+  margin-bottom: 3%;
 }
 
 p{
@@ -32,7 +35,7 @@ td{
 
 h1{
   color: white;
-  font-size: 45px;
+  font-size: 50px;
   text-align: center;
   background-color: black;
 }
@@ -48,7 +51,7 @@ h5{
 }
 
 h2{
-  margin-top: 150px;
+  margin-top: 15px;
   font-size: 35px;
   text-align: center;
 }
@@ -67,4 +70,21 @@ blockquote{
 
 .hashtag {
   display: none;
+}
+
+/* index */
+
+.index_img{
+background-color: red;
+
+}
+.index_img >img{
+height: 75vh;
+object-fit: cover;
+}
+.h2-index{
+  position: fixed;
+  bottom: 10px;
+  left: 30%;
+  right: 30%;
 }
