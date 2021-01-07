@@ -60,7 +60,8 @@ h1{
   /* text-align: center; */
   /* background-color: black; */
   font-weight: bold;
-  /* line-height: 1em; */
+  line-height: 1em;
+
 
 }
 h1 > em{
