@@ -19,7 +19,7 @@
     font-style: normal;
 }
 body {
-  font-size: 1em;
+  font-size: 20px;
   --contentWidth: 90%;
   max-width: var(--contentWidth);
   font-family: monument, sans-serif;
@@ -27,10 +27,13 @@ body {
   margin-left: 8%;
   margin-right: 8%;
   text-align: center;
-
+  background-color: rgb(250, 251, 251);
 }
 p{
   font-size: 0.9em;
+  line-height: 1.2em;
+  margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
 }
 img{
   height: 35vh;
@@ -41,12 +44,6 @@ img{
   margin-bottom: 3%;
 }
 
-p{
-  /* margin-left: 100px; */
-
-  line-height: 2em;
-}
-
 td{
   color: grey;
 }
@@ -54,7 +51,7 @@ td{
 h1{
   color: red;
   font-family: sinistre;
-  font-size: 3.4em;
+  font-size: 1.2em;
   text-align: center;
   /* background-color: black; */
   font-weight: bold;
@@ -89,8 +86,10 @@ h2{
 h6{
   color:red;
   font-family: sinistre;
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 0.9em;
+  /* line-height: 1.4em; */
+  margin-block-start: 0.7em;
+margin-block-end: 0.7em;
 }
 figcaption{
   font-style: italic;
@@ -125,4 +124,18 @@ object-fit: cover;
   bottom: 12px;
   left: 25%;
   right: 25%;
+}
+.arrows{
+  font-family: sinistre;
+  text-align: center;
+  color:red;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+.arrows > a{
+  color:red;
+  text-decoration: none;
+}
+.arrows > a:active{
+  color:black;
 }

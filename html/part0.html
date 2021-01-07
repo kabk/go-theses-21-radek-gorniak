@@ -2,11 +2,13 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>201201_thesis</title>
   <link rel="stylesheet" href="../css/index_style.css">
   <script src="script.js"></script>
+  <script type="text/javascript" src="sound-onclick.js"></script>
 </head>
-<body onclick='window.location.href="table_of_contents.html"'>
+<body>
   <h1>PART 0: The Embarkment</h1>
 
   <blockquote>
@@ -14,7 +16,15 @@
   </blockquote>
 
   <p>– Ursula K. Le Guin in her acceptance speech for the 2014 Medal for Distinguished Contribution to American Letters<sup><a href="#fn1-22961" id="fnr1-22961" title="see footnote" class="footnote">1</a></sup></p>
+  <div class="arrows" OnClick="playclip();">
+    <a href="../index.html">Back<</a> <a OnClick="playclip();" href="table_of_contents.html" >>Further</a>
+  </div>
+<div OnClick="playclip();"style="border: #C0C0C0 1px solid; background-color: #F0F0F0; width: 200px; padding: 8px; text-align: center; margin: 0 auto; cursor: pointer;">Click For Sound</div>
 
 </body>
-
+<audio>
+<source src="click.mp3" type="audio/mpeg">
+<source src="click.ogg" type="audio/ogg">
+</audio>
+<div id="sounddiv"><bgsound id="sound"></div>
 </html>

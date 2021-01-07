@@ -28,7 +28,7 @@ body {
   margin-right: 8%;
   line-height: 1.3em;
   margin-top: 7%;
-
+  background-color: rgb(251, 253, 253);
 }
 
 img{
@@ -53,8 +53,8 @@ td{
 h1{
   color: red;
   font-family: sinistre;
-  font-size: 3.4em;
-  text-align: center;
+  font-size: 1.8em;
+  /* text-align: center; */
   /* background-color: black; */
   font-weight: bold;
   /* line-height: 1em; */
@@ -81,11 +81,16 @@ h5{
 h2{
   /* margin-top: 40px;  */
   text-transform: uppercase;
-  font-size: 1.13em;
+  font-size: 1.3em;
   /* text-align: center; */
   font-family: sinistre;
   font-weight: normal;
   line-height: 1.1em;
+  color:red;
+}
+h3{
+  text-transform: uppercase;
+  font-weight: normal;
 }
 h6{
   color:red;
@@ -97,8 +102,10 @@ figcaption{
   font-style: italic;
 }
 blockquote{
-  font-style: italic;
+  /* font-style: italic; */
   color:red;
+  margin-inline-start: 20px;
+margin-inline-end: 20px;
 }
 .cover{
   margin-top: 50px;
