@@ -110,8 +110,8 @@ h6{
 }
 figcaption{
   /* font-style: italic; */
-  font-family: suisse;
-  font-size: 0.8em;
+  /* font-family: suisse; */
+  font-size: 0.85em;
   line-height: 1.1em;
   margin-block-start: 10px;
     /* margin-block-end: 5px; */
