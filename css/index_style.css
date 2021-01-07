@@ -93,12 +93,12 @@ figcaption{
   font-style: italic;
 }
 blockquote{
-  font-style: italic;
+  font-style: normal;
   color:red;
   margin-inline-start: 20px;
 margin-inline-end: 20px;
-font-size: 1.3em;
-line-height: 1em;
+font-size: 1.25em;
+line-height: 1.2em;
 }
 p{
   /* margin-left: 100px; */
