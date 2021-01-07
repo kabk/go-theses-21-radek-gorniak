@@ -18,6 +18,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'suisse';
+    src: url('../fonts/SuisseIntlMono-Regular.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
   /* font-size: 1em; */
   --contentWidth: 90%;
@@ -59,7 +65,7 @@ h1{
   font-size: 1.8em;
   /* text-align: center; */
   /* background-color: black; */
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1em;
 
 
@@ -104,7 +110,8 @@ h6{
 }
 figcaption{
   /* font-style: italic; */
-  font-size: 0.85em;
+  font-family: suisse;
+  font-size: 0.8em;
   line-height: 1.1em;
   margin-block-start: 10px;
     /* margin-block-end: 5px; */
@@ -160,4 +167,15 @@ object-fit: cover;
 }
 .arrows > a:active{
   color:black;
+}
+sup{
+  font-family: suisse;
+  font-size: 0.6em;
+  /* vertical-align:middle; */
+  line-height: 1.1em;
+}
+
+sup > a{
+  color: black;
+  text-decoration: none;
 }
