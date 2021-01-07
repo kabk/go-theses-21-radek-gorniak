@@ -33,8 +33,7 @@ body {
   margin-left: 8%;
   margin-right: 8%;
   background-color: rgb(250, 251, 251);
-  height:95vh;
-  display:flex;
+  /* height:95vh; */
 }
 
 img{
@@ -63,9 +62,7 @@ h1{
   font-weight: bold;
   /* line-height: 1em; */
   margin-block-start: 0.8em;
- position: fixed;
- left: 5%;
- right: 5%;
+
 }
 h1 > em{
   font-style: normal;
@@ -123,11 +120,10 @@ p{
 
 .index_img{
 /* background-color: red; */
-margin: auto;
 
 }
 .index_img >img{
-height: 65vh;
+height: 55vh;
 object-fit: cover;
 }
 .h2-index{
