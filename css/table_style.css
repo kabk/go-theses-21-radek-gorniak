@@ -84,7 +84,7 @@ h2{
   line-height: 1.1em;
 }
 h6{
-  color:red;
+  /* color:red; */
   font-family: sinistre;
   font-size: 0.9em;
   /* line-height: 1.4em; */
@@ -138,4 +138,8 @@ object-fit: cover;
 }
 .arrows > a:active{
   color:black;
+}
+a{
+  color:red;
+  /* text-decoration: none; */
 }
