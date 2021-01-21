@@ -62,11 +62,12 @@ td{
 h1{
   color: rgb(220, 0, 20);
   font-family: sinistre;
-  font-size: 2.8em;
+  font-size: 3em;
+  letter-spacing: 0.005em;
   text-align: center;
   /* background-color: black; */
   font-weight: normal;
-  line-height: 1em;
+  line-height: 0.9em;
 
 
 }
@@ -183,9 +184,9 @@ object-fit: cover;
   position: fixed;
   bottom: 0;
   margin-bottom: 0;
-  font-size: 1.75em;
+  font-size: 1.55em;
   width:110vw;
-  padding: 4px;
+  padding: 5px;
 }
 .arrows > a{
   color:rgb(246, 248, 248);
