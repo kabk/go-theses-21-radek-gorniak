@@ -30,28 +30,28 @@ body {
   max-width: var(--contentWidth);
   font-family: monument, sans-serif;
   overflow-x: hidden;
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: 1.35em;
+  margin-left: 4%;
+  margin-right: 4%;
+  line-height: 1.33em;
   margin-top: 7%;
   background-color: rgb(246, 248, 248);
 }
 
 img{
-  max-height: 75vh;
+  max-height: 90vh;
   width: 100%;
   object-fit: scale-down;
-  border-radius: 25px;
+  border-radius: 20px;
   text-align: center;
   /* margin-bottom: 3%; */
 }
 figure{
-  margin-inline-start: 10px;
-margin-inline-end: 10px;
+  margin-inline-start: 2px;
+margin-inline-end: 2px;
 }
 p{
   /* margin-left: 100px; */
-  font-size: 1.16em;
+  font-size: 1.14em;
 
 }
 
@@ -62,8 +62,8 @@ td{
 h1{
   color: rgb(220, 0, 20);
   font-family: sinistre;
-  font-size: 1.8em;
-  /* text-align: center; */
+  font-size: 2.8em;
+  text-align: center;
   /* background-color: black; */
   font-weight: normal;
   line-height: 1em;
@@ -91,7 +91,7 @@ h5{
 h2{
   /* margin-top: 40px;  */
   text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 1.45em;
   /* text-align: center; */
   font-family: sinistre;
   font-weight: normal;
@@ -124,9 +124,26 @@ figcaption > em{
 blockquote{
   /* font-style: italic; */
   /* color:rgb(220, 0, 20); */
-  margin-inline-start: 20px;
-margin-inline-end: 20px;
+  margin-inline-start: 25px;
+  margin-inline-end: 25px;
+  background-color: rgb(240, 242, 245);
+  padding: 10px;
+  border-radius: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
+
+.big_quote{
+font-size: 1.6em;
+word-break: none;
+line-height: 1.2em;
+margin-inline-start: 5px;
+margin-inline-end: 5px;
+margin-block-start: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
 .cover{
   margin-top: 50px;
   margin-left: 50%;
@@ -157,19 +174,21 @@ object-fit: cover;
 .arrows{
   font-family: monument;
   text-align: center;
-  color:rgb(220, 0, 20);
+  color:rgb(246, 248, 248);
+  color: transparent;
+  text-shadow: 0 0 0 rgb(246, 248, 248);
   font-size: 1.3em;
   margin-bottom: 20px;
   background-color: rgb(46, 48, 48);
   position: fixed;
   bottom: 0;
   margin-bottom: 0;
-  font-size: 1.85em;
+  font-size: 1.75em;
   width:110vw;
   padding: 4px;
 }
 .arrows > a{
-  color:rgb(220, 0, 20);
+  color:rgb(246, 248, 248);
   text-decoration: none;
 }
 .arrows > a:active{

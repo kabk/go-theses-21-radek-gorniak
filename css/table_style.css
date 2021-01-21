@@ -134,7 +134,8 @@ object-fit: cover;
 .arrows{
   font-family: monument;
   text-align: center;
-  color:rgb(220, 0, 20);
+  color: transparent;
+  text-shadow: 0 0 0 rgb(46, 48, 48);;
   font-size: 2em;
   margin-bottom: 20px;
   /* background-color: black; */
@@ -144,7 +145,7 @@ object-fit: cover;
 
 }
 .arrows > a{
-  color:rgb(220, 0, 20);
+  color:rgb(46, 48, 48);
   text-decoration: none;
 }
 .arrows > a:active{
@@ -157,7 +158,7 @@ object-fit: cover;
 }
 a{
   color:rgb(220, 0, 20);
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 
 p > a{

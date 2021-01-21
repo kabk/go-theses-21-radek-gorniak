@@ -30,8 +30,8 @@ body {
   max-width: var(--contentWidth);
   font-family: sinistre, sans-serif;
   overflow-x: hidden;
-  /* margin-left: 4%; */
-  /* margin-right: 4%; */
+  margin-left: 4%;
+  margin-right: 4%;
   background-color: rgb(246, 248, 248);
   /* height:95vh; */
   padding: 0;
@@ -64,6 +64,7 @@ h1{
   font-weight: bold;
   /* line-height: 1em; */
   margin-block-start: 0.8em;
+  margin-block-end: 0.37em;
 
 }
 h1>i{
@@ -152,28 +153,18 @@ object-fit: cover;
   right: 20%;
 }
 .arrows{
-  font-family: monument;
+  font-family: sinistre;
   text-align: center;
-  color:rgb(220, 0, 20);
-  font-size: 1.3em;
-  margin-bottom: 20px;
-  /* background-color: black; */
-  /* position: fixed; */
-  /* bottom: 0; */
-  margin-bottom: 0;
-  font-size: 3em;
+  color:red;
+  font-size: 1.1em;
+  margin-bottom: 10px;
 }
 .arrows > a{
-  color:rgb(220, 0, 20);
+  color:red;
   text-decoration: none;
 }
 .arrows > a:active{
   color:black;
-}
-
-.arrow_flex{
-  display: flex;
-  justify-content: center;
 }
 h2 > em{
   font-size: 1.3em;
