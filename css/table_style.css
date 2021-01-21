@@ -33,7 +33,7 @@ body {
   margin-left: 8%;
   margin-right: 8%;
   text-align: center;
-  background-color: rgb(250, 251, 251);
+  background-color: rgb(246, 248, 248);
 }
 p{
   font-size: 0.9em;
@@ -55,9 +55,9 @@ td{
 }
 
 h1{
-  color: red;
+  color: rgb(220, 0, 20);
   font-family: sinistre;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: center;
   /* background-color: black; */
   font-weight: normal;
@@ -92,7 +92,7 @@ h2{
 h6{
   /* color:red; */
   font-family: sinistre;
-  font-size: 0.9em;
+  font-size: 1.2em;
   /* line-height: 1.4em; */
   margin-block-start: 0.7em;
 margin-block-end: 0.7em;
@@ -102,7 +102,7 @@ figcaption{
 }
 blockquote{
   font-style: italic;
-  color:red;
+  color:rgb(220, 0, 20);
 }
 .cover{
   margin-top: 50px;
@@ -132,20 +132,38 @@ object-fit: cover;
   right: 25%;
 }
 .arrows{
-  font-family: sinistre;
+  font-family: monument;
   text-align: center;
-  color:red;
-  font-size: 1.1em;
+  color:rgb(220, 0, 20);
+  font-size: 2em;
   margin-bottom: 20px;
+  /* background-color: black; */
+  /* position: fixed; */
+  /* bottom: 0; */
+  margin-bottom: 0;
+
 }
 .arrows > a{
-  color:red;
+  color:rgb(220, 0, 20);
   text-decoration: none;
 }
 .arrows > a:active{
   color:black;
 }
+
+.arrow_flex{
+  display: flex;
+  justify-content: center;
+}
 a{
-  color:red;
+  color:rgb(220, 0, 20);
   /* text-decoration: none; */
+}
+
+p > a{
+  color: black;
+}
+
+h6 > a {
+  color:rgb(220, 0, 20);
 }

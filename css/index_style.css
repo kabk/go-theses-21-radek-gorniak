@@ -26,20 +26,22 @@
 }
 body {
   font-size: 20px;
-  --contentWidth: 90%;
+  /* --contentWidth: 95%; */
   max-width: var(--contentWidth);
   font-family: sinistre, sans-serif;
   overflow-x: hidden;
-  margin-left: 8%;
-  margin-right: 8%;
-  background-color: rgb(250, 251, 251);
+  /* margin-left: 4%; */
+  /* margin-right: 4%; */
+  background-color: rgb(246, 248, 248);
   /* height:95vh; */
+  padding: 0;
+  margin: 0;
 }
 
 img{
   height: 35vh;
   width: 100%;
-  object-fit: scale-down;
+  /* object-fit: scale-down; */
   border-radius: 25px;
   text-align: center;
   margin-bottom: 3%;
@@ -56,7 +58,7 @@ td{
 
 h1{
   color: red;
-  font-size: 1.2em;
+  font-size: 1.7em;
   text-align: center;
   /* background-color: black; */
   font-weight: bold;
@@ -64,10 +66,27 @@ h1{
   margin-block-start: 0.8em;
 
 }
+h1>i{
+  font-style: normal;
+  color: rgb(246, 248, 248);
+  -webkit-animation: glow 5s ease-in-out infinite alternate;
+  -moz-animation: glow 5s ease-in-out infinite alternate;
+  animation: glow 5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px rgb(246, 248, 248), 0 0 2px rgb(246, 248, 248), 0 0 3px rgb(246, 248, 248), 0 0 4pxrgb(246, 248, 248), 0 0 5px rgb(246, 248, 248), 0 0 6px  rgb(246, 248, 248), 0 0 7px rgb(246, 248, 248), 0 0 8px rgb(246, 248, 248), 0 0 9px rgb(246, 248, 248), 0 0 11px rgb(246, 248, 248);
+  }
+  to {
+    text-shadow: 0 0 2px rgb(246, 248, 248), 0 0 3px rgb(255, 60, 60), 0 0 4px red, 0 0 5px red, 0 0 6px red , 0 0 7px rgb(205, 0, 0);
+  }
+}
+
 h1 > em{
   font-style: normal;
   font-family: monument;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.1em;
   color:black;
 }
@@ -133,16 +152,30 @@ object-fit: cover;
   right: 20%;
 }
 .arrows{
-  font-family: sinistre;
+  font-family: monument;
   text-align: center;
-  color:red;
-  font-size: 1.1em;
-  margin-bottom: 10px;
+  color:rgb(220, 0, 20);
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  /* background-color: black; */
+  /* position: fixed; */
+  /* bottom: 0; */
+  margin-bottom: 0;
+  font-size: 3em;
 }
 .arrows > a{
-  color:red;
+  color:rgb(220, 0, 20);
   text-decoration: none;
 }
 .arrows > a:active{
   color:black;
+}
+
+.arrow_flex{
+  display: flex;
+  justify-content: center;
+}
+h2 > em{
+  font-size: 1.3em;
+  font-style: normal;
 }

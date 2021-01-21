@@ -26,15 +26,15 @@
 }
 body {
   /* font-size: 1em; */
-  --contentWidth: 90%;
+  /* --contentWidth: 90%; */
   max-width: var(--contentWidth);
   font-family: monument, sans-serif;
   overflow-x: hidden;
-  margin-left: 8%;
-  margin-right: 8%;
-  line-height: 1.3em;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.35em;
   margin-top: 7%;
-  background-color: rgb(251, 253, 253);
+  background-color: rgb(246, 248, 248);
 }
 
 img{
@@ -46,12 +46,12 @@ img{
   /* margin-bottom: 3%; */
 }
 figure{
-  margin-inline-start: 20px;
-margin-inline-end: 20px;
+  margin-inline-start: 10px;
+margin-inline-end: 10px;
 }
 p{
   /* margin-left: 100px; */
-  font-size: 1.13em;
+  font-size: 1.16em;
 
 }
 
@@ -60,7 +60,7 @@ td{
 }
 
 h1{
-  color: red;
+  color: rgb(220, 0, 20);
   font-family: sinistre;
   font-size: 1.8em;
   /* text-align: center; */
@@ -96,14 +96,14 @@ h2{
   font-family: sinistre;
   font-weight: normal;
   line-height: 1.1em;
-  color:red;
+  color:rgb(220, 0, 20);
 }
 h3{
   text-transform: uppercase;
   font-weight: normal;
 }
 h6{
-  color:red;
+  color:rgb(220, 0, 20);
   font-family: sinistre;
   font-size: 1em;
   line-height: 1.4em;
@@ -123,7 +123,7 @@ figcaption > em{
 }
 blockquote{
   /* font-style: italic; */
-  color:red;
+  /* color:rgb(220, 0, 20); */
   margin-inline-start: 20px;
 margin-inline-end: 20px;
 }
@@ -155,18 +155,30 @@ object-fit: cover;
   right: 25%;
 }
 .arrows{
-  font-family: sinistre;
+  font-family: monument;
   text-align: center;
-  color:red;
+  color:rgb(220, 0, 20);
   font-size: 1.3em;
   margin-bottom: 20px;
+  background-color: rgb(46, 48, 48);
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  font-size: 1.85em;
+  width:110vw;
+  padding: 4px;
 }
 .arrows > a{
-  color:red;
+  color:rgb(220, 0, 20);
   text-decoration: none;
 }
 .arrows > a:active{
   color:black;
+}
+
+.arrow_flex{
+  display: flex;
+  justify-content: center;
 }
 sup{
   font-family: suisse;

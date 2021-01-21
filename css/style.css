@@ -7,12 +7,12 @@
 }
 body {
   font-size: 20px;
-  --contentWidth: 90%;
+  --contentWidth: 95%;
   max-width: var(--contentWidth);
   font-family: optima, sans-serif;
   overflow-x: hidden;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 img{
