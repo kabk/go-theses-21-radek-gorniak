@@ -69,10 +69,10 @@ h1{
 }
 h1>i{
   font-style: normal;
-  color: rgb(246, 248, 248);
+  color:rgb(246, 248, 248);
   -webkit-animation: glow 5s ease-in-out infinite alternate;
   -moz-animation: glow 5s ease-in-out infinite alternate;
-  animation: glow 5s ease-in-out infinite alternate;
+  animation: glow 5s ease-in-out infinite alternate; 
 }
 
 @-webkit-keyframes glow {
@@ -170,3 +170,25 @@ h2 > em{
   font-size: 1.15em;
   font-style: normal;
 }
+
+/* .blur{
+  /* background-color: red; */
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  position:fixed;
+  /* filter: blur(3px) ; */
+  /* opacity: 0.38; */
+  animation: filter-animation 1s ease-in-out infinite alternate;
+}
+
+@keyframes filter-animation {
+  0% {
+    filter: blur(15px) brightness(0.6) contrast(3) saturate(0);
+  }
+
+
+  100% {
+    filter: blur(0px) brightness(1) contrast(1) saturate(1);
+  }
+} */
