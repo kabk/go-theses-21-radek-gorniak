@@ -58,7 +58,7 @@ margin-inline-end: 2px;
 }
 p{
   /* margin-left: 100px; */
-  font-size: 1.14em;
+  font-size: 1.12em;
 
 }
 
@@ -220,4 +220,56 @@ sup{
 sup > a{
   color: black;
   text-decoration: none;
+}
+
+
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-block;
+  }
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+    margin-right: 3px;
+  }
+}
+
+.card {
+  border: 2px solid $red;
+  width: 250px;
+  height: 450px;
+  background: black;
+}
+
+.scrolling-wrapper, .scrolling-wrapper-flexbox {
+  /* height: 550px; */
+  margin-bottom: 20px;
+  width: 90vw;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolling-wrapper-flexbox > img{
+  width: 85%;
+  /* height: 80%; */
+  margin: 4px;
+  max-height: 80vh
 }
