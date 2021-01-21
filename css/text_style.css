@@ -1,7 +1,14 @@
 @font-face {
     font-family: 'monument';
-    src: url('../fonts/ABCMonumentGrotesk-Regular.woff2') format('woff2'),
-         url('../fonts/ABCMonumentGrotesk-Regular.woff')format('woff');
+    src: url('../fonts/ABCMonumentGrotesk-Regular.eot');
+    src: url('../fonts/ABCMonumentGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ABCMonumentGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/ABCMonumentGrotesk-Regular.woff') format('woff'),
+        url('../fonts/ABCMonumentGrotesk-Regular.ttf') format('truetype'),
+        url('../fonts/ABCMonumentGrotesk-Regular.svg#ABCMonumentGrotesk-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
     font-weight: normal;
     font-style: normal;
 }
@@ -29,7 +36,7 @@ body {
   /* --contentWidth: 90%; */
   max-width: var(--contentWidth);
   font-family: monument, sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   margin-left: 4%;
   margin-right: 4%;
   line-height: 1.33em;
@@ -181,12 +188,13 @@ object-fit: cover;
   font-size: 1.3em;
   margin-bottom: 20px;
   background-color: rgb(46, 48, 48);
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 0;
+  position: sticky;
+  top: 0;
+  /* margin-bottom: 0; */
   font-size: 1.55em;
   width:110vw;
   padding: 5px;
+  align-self: flex-start;
 }
 .arrows > a{
   color:rgb(246, 248, 248);
@@ -197,8 +205,10 @@ object-fit: cover;
 }
 
 .arrow_flex{
+  height: 10px;
   display: flex;
   justify-content: center;
+  align-self: flex-start
 }
 sup{
   font-family: suisse;
