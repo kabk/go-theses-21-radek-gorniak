@@ -41,13 +41,13 @@ body {
   /* overflow-x: hidden; */
   margin:0;
   line-height: 1.37em;
-  margin-top: 7%;
+  margin-top: 5%;
   background-color: rgb(246, 248, 248);
 }
 .big_container{
   /* background-color: red; */
   margin-left: 4%;
-  margin-right: 2%;
+  margin-right: 4%;
 }
 
 img{
@@ -81,6 +81,8 @@ h1{
   /* background-color: black; */
   font-weight: normal;
   line-height: 0.9em;
+  margin-block-start: 0.4em;
+    margin-block-end: 0.55em;
 
 
 }
@@ -281,4 +283,12 @@ sup > a{
   margin: 4px;
   max-height: 90vh
   border-radius: 20px;
+}
+.footnote_link{
+    color: black;
+
+}
+
+.sinistre{
+font-family: sinistre; 
 }
