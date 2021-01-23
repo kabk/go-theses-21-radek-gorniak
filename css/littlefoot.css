@@ -1,7 +1,7 @@
 .littlefoot-footnote__button {
   -webkit-font-smoothing: antialiased;
   backface-visibility: hidden;
-  background-color: rgba(110, 110, 110, 0.2);
+  background-color: rgba(185, 0, 0, 0.2);
   border-radius: .5em;
   border: 0;
   box-sizing: border-box;
@@ -36,7 +36,7 @@
 }
 
 .littlefoot-footnote__button.is-active {
-  background-color: #6e6e6e;
+  background-color: rgba(230, 10, 10, 0.70);
   color: white;
   transition-delay: .1s
 }
@@ -57,7 +57,7 @@
 }
 
 .littlefoot-footnote__button__number::after {
-  color: rgba(110, 110, 110, 0.5);
+  color: rgba(0, 110, 0, 1.5);
   content: attr(data-footnote-number);
   display: block;
   font-size: .9em;
@@ -102,7 +102,7 @@
   background: #fafafa;
   border-radius: .5em;
   border: 1px solid #c3c3c3;
-  box-shadow: 0 0 18px 10px rgba(250, 0, 0, 0.83);
+  box-shadow: 0 0 17px 15px rgba(250, 0, 0, 0.83);
   box-sizing: border-box;
   display: inline-block;
   left: 0;
@@ -235,7 +235,7 @@
   box-sizing: inherit;
   display: inline-block;
   line-height: normal;
-  font-size: 11pt;
+  font-size: 10pt;
   font-style: initial;
   font-weight: initial;
   max-height: 15em;
