@@ -31,17 +31,23 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
 body {
   /* font-size: 1em; */
   /* --contentWidth: 90%; */
   max-width: var(--contentWidth);
   font-family: monument, sans-serif;
   /* overflow-x: hidden; */
-  margin-left: 4%;
-  margin-right: 4%;
+  margin:0;
   line-height: 1.37em;
   margin-top: 7%;
   background-color: rgb(246, 248, 248);
+}
+.big_container{
+  /* background-color: red; */
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 img{
