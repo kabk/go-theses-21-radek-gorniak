@@ -83,9 +83,8 @@ h1{
   line-height: 0.9em;
   margin-block-start: 0.4em;
     margin-block-end: 0.55em;
-
-
 }
+
 h1 > em{
   font-style: normal;
   font-family: monument;
@@ -106,13 +105,15 @@ h5{
 
 h2{
   /* margin-top: 40px;  */
-  text-transform: uppercase;
-  font-size: 1.55em;
+  /* text-transform: uppercase; */
+  font-size: 2em;
   /* text-align: center; */
   font-family: sinistre;
   font-weight: normal;
   line-height: 1.1em;
   color:rgb(220, 0, 20);
+  margin-block-end: 0.53em;
+  margin-block-start: 0.73em;
 }
 h3{
   /* text-transform: uppercase; */
@@ -190,19 +191,20 @@ object-fit: cover;
 .arrows{
   font-family: monument;
   text-align: center;
-  color:rgb(246, 248, 248);
+  /* color:rgb(246, 248, 248); */
   color: transparent;
-  text-shadow: 0 0 0 rgb(246, 248, 248);
-  font-size: 1.3em;
-  margin-bottom: 20px;
-  background-color: rgb(46, 48, 48);
-  position: sticky;
-  top: 0;
+  text-shadow: 0 0 2.5px rgba(210, 0, 20);
+  margin-bottom: 30px;
+  /* background-color: rgb(46, 48, 48); */
+  /* position: sticky; */
+  bottom: 0;
   /* margin-bottom: 0; */
   font-size: 1.55em;
-  width:110vw;
+  width:25vw;
   padding: 5px;
   align-self: flex-start;
+  line-height: 0.75em;
+  height:10px;
 }
 .arrows > a{
   color:rgb(246, 248, 248);
@@ -213,11 +215,14 @@ object-fit: cover;
 }
 
 .arrow_flex{
-  height: 10px;
+  height: 31px;
   display: flex;
   justify-content: center;
   align-self: flex-start
-
+  position: fixed;
+  z-index: 10;
+  box-shadow: 0 0 20px 16px rgba(250, 0, 0, 0.83);
+  bottom: -3px;
 }
 sup{
   font-family: suisse;
@@ -264,8 +269,9 @@ sup > a{
 .scrolling-wrapper, .scrolling-wrapper-flexbox {
   /* height: 550px; */
   border-radius: 20px;
-  margin-bottom: 20px;
-  width: 60vw;
+  /* margin-bottom: 20px; */
+  margin-block-end:1px;
+  width: 100%;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
@@ -278,10 +284,9 @@ sup > a{
 }
 
 .scrolling-wrapper-flexbox > img{
-  width: 90%;
-  /* height: 80%; */
-  margin: 4px;
-  max-height: 90vh
+  width: 91%;
+  margin: 5px;
+  max-height: 90vh;
   border-radius: 20px;
 }
 .footnote_link{
@@ -290,5 +295,8 @@ sup > a{
 }
 
 .sinistre{
-font-family: sinistre; 
+font-family: sinistre;
+}
+.scrolling_caption{
+    margin-block-start: 4px;
 }
