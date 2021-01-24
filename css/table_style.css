@@ -141,19 +141,19 @@ object-fit: cover;
   font-family: monument;
   text-align: center;
   /* color:rgb(246, 248, 248); */
-  color: transparent;
-  text-shadow: 0 0 2.5px rgba(210, 0, 20);
-  margin-bottom: 30px;
+  /* color: transparent; */
+  text-shadow: 0 0 3px rgba(210, 0, 20);
+  margin-bottom: 2px;
+  margin-top: 3px;
   /* background-color: rgb(46, 48, 48); */
   /* position: sticky; */
   bottom: 0;
   /* margin-bottom: 0; */
-  font-size: 1.45em;
+  font-size: 2.3em;
   width:25vw;
   padding: 5px;
   align-self: flex-start;
-  line-height: 0.75em;
-  height:10px;
+  height:20px;
 }
 .arrows > a{
   color:rgb(246, 248, 248);
@@ -164,18 +164,19 @@ object-fit: cover;
 }
 
 .arrow_flex{
-  height: 27px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-self: flex-start
   position: fixed;
   z-index: 10;
-  box-shadow: 0 0 15px 8px rgba(250, 0, 0, 0.83);
+  box-shadow: 0 0 16px 10px rgba(250, 0, 0, 0.83);
   bottom: -3px;
+}
 
-  position: fixed;
-    bottom: 0;
-    width: 100%;
+#sword{
+  font-size: 1.8em;
+  line-height: 1.05em;
 }
 a{
   color:rgb(220, 0, 20);
