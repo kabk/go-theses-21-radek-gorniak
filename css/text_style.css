@@ -254,7 +254,7 @@ sup > a{
   }
 }
 
-.scrolling-wrapper-flexbox {
+.scrolling-wrapper-flexbox, .scrolling-wrapper-flexbox-horizon {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
