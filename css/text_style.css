@@ -272,10 +272,12 @@ sup > a{
   background: black;
 }
 
-.scrolling-wrapper, .scrolling-wrapper-flexbox {
+.scrolling-wrapper, .scrolling-wrapper-flexbox, .scrolling-wrapper-flexbox-horizon {
   /* height: 550px; */
+  max-height: 90vh;
   border-radius: 20px;
   /* margin-bottom: 20px; */
+  margin-block-start: 0.8em;
   margin-block-end:1px;
   width: 100%;
   overflow-y: hidden;
@@ -288,11 +290,19 @@ sup > a{
 .scrolling-wrapper-flexbox::-webkit-scrollbar {
   display: none;
 }
-
+.scrolling-wrapper-flexbox-horizon::-webkit-scrollbar {
+  display: none;
+}
 .scrolling-wrapper-flexbox > img{
   width: 91%;
   margin: 5px;
-  max-height: 95vh;
+  max-height: 67vh;
+  border-radius: 20px;
+}
+.scrolling-wrapper-flexbox-horizon > img{
+  width: 91%;
+  margin: 5px;
+  max-height: 36vh;
   border-radius: 20px;
 }
 .footnote_link{
