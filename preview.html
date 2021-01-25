@@ -53,7 +53,7 @@ function MathShape(elementId, miURL){
 	this.strokeWidth = 2		// default stroke width
 	this.parentWidth = 0;		// whatever the latest width we know of the parent
 	this.parentHeight = 0;		// whatever the latest height we know of the parent
-	this.breatheInterval = 0.003;	// increment the breath value
+	this.breatheInterval = 0.0028;	// increment the breath value
 	this.breatheFactor = 1.5;	// current breathe value
 	this.designspace = "twobytwo";
 }
@@ -383,9 +383,9 @@ div.svgloader{
 	#svgcontainer{
 		margin-top:0vh;
 		margin-left:0vw;
-		height: 100vh;
-		width: 100vw;
-		filter: blur(15px);
+		height: 92vh;
+		width: 99vw;
+		filter: blur(18px);
 	}
 	.column{
 		position: absolute;
@@ -397,7 +397,7 @@ div.svgloader{
 }
 
 		body{
-			background-color: rgba(120, 128, 128, 1.00);
+			background-color: rgba(200, 208, 208, 1.00);
 		}
 	</style>
 
