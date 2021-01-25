@@ -58,17 +58,18 @@ td{
 
 h1{
   color: red;
-  font-size: 1.65em;
+  font-size: 1.55em;
   text-align: center;
   /* background-color: black; */
   font-weight: bold;
-  /* line-height: 1em; */
+  line-height: 1.1em;
   margin-block-start: 0.8em;
   margin-block-end: 0.37em;
 
 }
 h1>i{
   font-style: normal;
+  font-weight: normal;
   color:rgb(240, 0, 20);
   /* -webkit-animation: glow 5s ease-in-out infinite alternate;
   -moz-animation: glow 5s ease-in-out infinite alternate;

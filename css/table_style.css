@@ -105,6 +105,8 @@ h6{
   margin-block-start: 0.3em;
 margin-block-end: 0.3em;
 font-style: normal;
+font-weight: normal;
+
 }
 figcaption{
   font-style: italic;
@@ -171,13 +173,14 @@ object-fit: cover;
   display: flex;
   justify-content: center;
   align-self: flex-start
-  position: fixed;
+  /* position: fixed; */
   z-index: 10;
   box-shadow: 0 0 15px 8px rgba(250, 0, 0, 0.83);
-  bottom: -3px;
+  /* bottom: -3px; */
 
-  position: fixed;
+  position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
 
