@@ -1,23 +1,14 @@
 <html>
 
 <head>
-	<title>LettError MathShape Preview</title>
+	<title>Afterimage: Medieval Modernity</title>
+	<link rel="shortcut icon" type="image/png" href="./favicon.png"/>
 	<meta charset="UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
 	<script>// mathShape object
-// takes 4 names of svg files
-// loads them with snap
-// then makes 2 axis interpolation
-// that fill the parent box.
-// factor 1: width
-// factor 2: play
 
-// With thanks to Jérémie Hornus, Nina Stössinger, Nick Sherman, Andrew Johnson, Petr van Blokland and Gerrit Noordzij.
-
-// For the time being, for practical reasons, this is (c) erik van blokland 2016
-// Assume this code is a proof of concept and a nice demo. No guarantee for how this code
-// holds up under greater loads, heavy files, production or otherwise demanding environments.
+// title page of the Bachelor Thesis by Radek Górniak. All of the below code credit of Erik van Blokland: https://github.com/LettError/responsiveLettering
 
 		// tools
 		function roundToTwo(num) {
@@ -385,7 +376,7 @@ div.svgloader{
 		margin-left:0vw;
 		height: 92vh;
 		width: 99vw;
-		filter: blur(18px);
+		filter: blur(12px);
 	}
 	.column{
 		position: absolute;
@@ -397,7 +388,7 @@ div.svgloader{
 }
 
 		body{
-			background-color: rgba(214, 212, 212, 1.00);
+			background-color: rgba(144, 142, 142, 1.00);
 		}
 	</style>
 
@@ -428,7 +419,7 @@ div.svgloader{
 		//myMathShape.loadFromWeb();
 		// set fill colors
 		myMathShape.setAlignment("center");
-		myMathShape.setFill("rgba(255, 0, 0, 0.80)");
+		myMathShape.setFill("rgba(255, 15, 0, 0.85)");
 		myMathShape.calculateFactors();
 		// recalculate the image factors when resizing
 		$(window).resize(function() {
